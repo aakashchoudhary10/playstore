@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Launch Play Store URL:https://play.google.com/store?hl=en]]>
+    </line>
+    <line>
+      <![CDATA[Actual PlayStore Title:Google Play]]>
+    </line>
+    <line>
+      <![CDATA[Expected PlayStore Title:Google Play]]>
+    </line>
+    <line>
+      <![CDATA[click on Movies tab]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on New Release Movie]]>
+    </line>
+    <line>
+      <![CDATA[ Final MovieCount@@@ 13]]>
+    </line>
+    <line>
+      <![CDATA[ Movie25Elements@@@ [[[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']]]]]>
+    </line>
+    <line>
+      <![CDATA[@For Loop Size:13]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Bodhai Yeri Budhi Maari Movie DirectorName: Chandru KR]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Aruvam Movie DirectorName: Sai Sekhar]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Game Over Movie DirectorName: Ashwin Saravanan]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Game Over (Hindi) Movie DirectorName: Ashwin Saravanan]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Puppy Movie DirectorName: Nattu Dev]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on New Release Movie]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Game Over (Telugu) Movie DirectorName: Ashwin Saravanan]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Gurkha Movie DirectorName: Sam Anton]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[En Kaadali Sceen Podura Movie DirectorName: Ram Sevaa]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Nenjamundu Nermaiyundu Odu Raja Movie DirectorName: Karthik Venugopalan]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Super Duper Movie DirectorName: Arun Karthik]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on New Release Movie]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Bow Bow Movie DirectorName: S Pradeep Kilikar]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Sixer Movie DirectorName: Chachi]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+    <line>
+      <![CDATA[Click on Movie Name: ]]>
+    </line>
+    <line>
+      <![CDATA[Mei Movie DirectorName: S. A. Bhaskaran]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Previous page]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="264325" started-at="2020-03-02T16:23:44 IST" finished-at="2020-03-02T16:28:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="264325" started-at="2020-03-02T16:23:44 IST" finished-at="2020-03-02T16:28:08 IST">
+      <class name="com.qainfotech.automation.playstore.PlayStore_Test">
+        <test-method status="PASS" signature="intializeAndlaunchWebBrowser()[pri:0, instance:com.qainfotech.automation.playstore.PlayStore_Test@57855c9a]" name="intializeAndlaunchWebBrowser" is-config="true" duration-ms="5289" started-at="2020-03-02T16:23:44 IST" finished-at="2020-03-02T16:23:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeAndlaunchWebBrowser -->
+        <test-method status="PASS" signature="launchPlayStoreWeb()[pri:1, instance:com.qainfotech.automation.playstore.PlayStore_Test@57855c9a]" name="launchPlayStoreWeb" duration-ms="12372" started-at="2020-03-02T16:23:49 IST" finished-at="2020-03-02T16:24:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch Play Store URL:https://play.google.com/store?hl=en]]>
+            </line>
+            <line>
+              <![CDATA[Actual PlayStore Title:Google Play]]>
+            </line>
+            <line>
+              <![CDATA[Expected PlayStore Title:Google Play]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchPlayStoreWeb -->
+        <test-method status="PASS" signature="playStoreSignIn()[pri:2, instance:com.qainfotech.automation.playstore.PlayStore_Test@57855c9a]" name="playStoreSignIn" duration-ms="10185" started-at="2020-03-02T16:24:01 IST" finished-at="2020-03-02T16:24:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playStoreSignIn -->
+        <test-method status="FAIL" signature="movieDetails()[pri:3, instance:com.qainfotech.automation.playstore.PlayStore_Test@57855c9a]" name="movieDetails" duration-ms="233403" started-at="2020-03-02T16:24:12 IST" finished-at="2020-03-02T16:28:05 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Add credit or debit card']"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DLLA1660', ip: '10.161.244.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\AAKASH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c27c79c81cf15997c0e9bb21458b393a
+*** Element info: {Using=xpath, value=//span[text()='Add credit or debit card']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Add credit or debit card']"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DLLA1660', ip: '10.161.244.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\AAKASH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c27c79c81cf15997c0e9bb21458b393a
+*** Element info: {Using=xpath, value=//span[text()='Add credit or debit card']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.qainfotech.automation.playstore.PlayStore_Test.movieDetails(PlayStore_Test.java:122)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[click on Movies tab]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on New Release Movie]]>
+            </line>
+            <line>
+              <![CDATA[ Final MovieCount@@@ 13]]>
+            </line>
+            <line>
+              <![CDATA[ Movie25Elements@@@ [[[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']]]]]>
+            </line>
+            <line>
+              <![CDATA[@For Loop Size:13]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Bodhai Yeri Budhi Maari Movie DirectorName: Chandru KR]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Aruvam Movie DirectorName: Sai Sekhar]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Game Over Movie DirectorName: Ashwin Saravanan]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Game Over (Hindi) Movie DirectorName: Ashwin Saravanan]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Puppy Movie DirectorName: Nattu Dev]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on New Release Movie]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Game Over (Telugu) Movie DirectorName: Ashwin Saravanan]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Gurkha Movie DirectorName: Sam Anton]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[En Kaadali Sceen Podura Movie DirectorName: Ram Sevaa]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Nenjamundu Nermaiyundu Odu Raja Movie DirectorName: Karthik Venugopalan]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Super Duper Movie DirectorName: Arun Karthik]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on New Release Movie]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Bow Bow Movie DirectorName: S Pradeep Kilikar]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Sixer Movie DirectorName: Chachi]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+            <line>
+              <![CDATA[Click on Movie Name: ]]>
+            </line>
+            <line>
+              <![CDATA[Mei Movie DirectorName: S. A. Bhaskaran]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Previous page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- movieDetails -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.qainfotech.automation.playstore.PlayStore_Test@57855c9a]" name="end" is-config="true" duration-ms="2212" started-at="2020-03-02T16:28:06 IST" finished-at="2020-03-02T16:28:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.qainfotech.automation.playstore.PlayStore_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
