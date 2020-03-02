@@ -45,6 +45,9 @@ public class PlayStore_Test extends Base{
 		driver.findElement(By.cssSelector("input[name=password]")).sendKeys("Qait@123"); 
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[text()='Next']")).click();
+		Thread.sleep(2000);
+		String ActualPlayStore2 = driver.getTitle();
+		Assert.assertEquals(ActualPlayStore2, ExpectedPlayStoreTitle);
 
 	}
 
@@ -120,7 +123,9 @@ public class PlayStore_Test extends Base{
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[text()='Next']")).click();
 		driver.findElement(By.xpath("//span[text()='Add credit or debit card']")).click();
-		/*
+		
+		/*Observing Google Account Login Issue*/
+		/* 
 		 * driver.findElement(By.xpath("//button[text()='₹25.00 SD']")).click();
 		 * driver.findElement(By.xpath("//span[text()='Add credit or debit card']")).
 		 * click();

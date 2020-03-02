@@ -5,6 +5,7 @@
     <classes>
       <class name="com.qainfotech.automation.playstore.PlayStore_Test">
         <methods>
+          <include name="playStoreSignIn"/>
           <include name="movieDetails"/>
           <include name="intializeAndlaunchWebBrowser"/>
           <include name="end"/>

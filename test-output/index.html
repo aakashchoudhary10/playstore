@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\aakashchoudhary\AppData\Local\Temp\testng-eclipse--511814531\testng-customsuite.xml</span>
+                    <span>C:\Users\aakashchoudhary\AppData\Local\Temp\testng-eclipse-1254136122\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qainfotech.automation.playstore.PlayStore_Test" hash-for-method="movieDetails">movieDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qainfotech.automation.playstore.PlayStore_Test" hash-for-method="playStoreSignIn">playStoreSignIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -117,11 +122,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qainfotech.automation.playstore.PlayStore_Test" hash-for-method="launchPlayStoreWeb">launchPlayStoreWeb</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qainfotech.automation.playstore.PlayStore_Test" hash-for-method="playStoreSignIn">playStoreSignIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -153,8 +153,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DLLA1660&apos;, ip: &apos;10.161.244.168&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\AAKASH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c27c79c81cf15997c0e9bb21458b393a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\AAKASH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8d4bd48ae9a5259271c731cae76c155b
 *** Element info: {Using=xpath, value=//span[text()=&apos;Add credit or debit card&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -170,7 +170,51 @@ Session ID: c27c79c81cf15997c0e9bb21458b393a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.qainfotech.automation.playstore.PlayStore_Test.movieDetails(PlayStore_Test.java:122)
+	at com.qainfotech.automation.playstore.PlayStore_Test.movieDetails(PlayStore_Test.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playStoreSignIn">
+                  </a> <!-- playStoreSignIn -->
+                  <span class="method-name">playStoreSignIn</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Google Play] but found [Sign in - Google Accounts]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.qainfotech.automation.playstore.PlayStore_Test.playStoreSignIn(PlayStore_Test.java:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -218,19 +262,12 @@ Session ID: c27c79c81cf15997c0e9bb21458b393a
                   <span class="method-name">launchPlayStoreWeb</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="playStoreSignIn">
-                  </a> <!-- playStoreSignIn -->
-                  <span class="method-name">playStoreSignIn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\aakashchoudhary\AppData\Local\Temp\testng-eclipse--511814531\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\aakashchoudhary\AppData\Local\Temp\testng-eclipse-1254136122\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -283,15 +320,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'movieDetails')
 data.setCell(0, 2, 'com.qainfotech.automation.playstore.PlayStore_Test')
-data.setCell(0, 3, 233403);
+data.setCell(0, 3, 229810);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'launchPlayStoreWeb')
 data.setCell(1, 2, 'com.qainfotech.automation.playstore.PlayStore_Test')
-data.setCell(1, 3, 12372);
+data.setCell(1, 3, 12042);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'playStoreSignIn')
 data.setCell(2, 2, 'com.qainfotech.automation.playstore.PlayStore_Test')
-data.setCell(2, 3, 10185);
+data.setCell(2, 3, 11775);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -321,7 +358,7 @@ return data;
                 <span class="reporter-method-output">click on Movies tab</span>
                 <span class="reporter-method-output">Clicked on New Release Movie</span>
                 <span class="reporter-method-output"> Final MovieCount@@@ 13</span>
-                <span class="reporter-method-output"> Movie25Elements@@@ [[[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (c27c79c81cf15997c0e9bb21458b393a)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']]]</span>
+                <span class="reporter-method-output"> Movie25Elements@@@ [[[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']], [[ChromeDriver: chrome on WINDOWS (8d4bd48ae9a5259271c731cae76c155b)] -> xpath: //div[@class='ZmHEEd ']//span[text()='₹25.00']/ancestor::div[@class='vU6FJ p63iDd']//div[@class='WsMG1c nnK0zc']]]</span>
                 <span class="reporter-method-output">@For Loop Size:13</span>
                 <span class="reporter-method-output">Click on Movie Name: </span>
                 <span class="reporter-method-output">Bodhai Yeri Budhi Maari Movie DirectorName: Chandru KR</span>
@@ -388,21 +425,23 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">launchPlayStoreWeb</span>
-                <span class="method-start">5318 ms</span>
+                <span class="method-start">4654 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">playStoreSignIn</span>
-                <span class="method-start">17699 ms</span>
+                <span class="method-start">16705 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">movieDetails</span>
-                <span class="method-start">27892 ms</span>
+                <span class="method-start">29071 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">end</span>
-                <span class="method-start">262084 ms</span>
+                <span class="method-start">259328 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

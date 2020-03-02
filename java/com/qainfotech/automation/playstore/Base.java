@@ -76,7 +76,7 @@ public class Base {
 	public void failed() {
 		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
-			Timestamp time = currentTimeStamp();
+			long time = currentTimeStamp();
 			System.out.println("C:\\Users\\aakashchoudhary\\eclipse-workspace\\playstore\\Screenshot\\testfailure"+time+".jpg");
 			FileUtils.copyFile(srcFile, new File("C:\\Users\\aakashchoudhary\\eclipse-workspace\\playstore\\Screenshot\\testfailure"+time+".jpg"));
 		}catch(IOException e){
@@ -90,12 +90,12 @@ public class Base {
 
 	}
 
-	public Timestamp currentTimeStamp() {
+	public long currentTimeStamp() {
 		Date date = new Date();
 		long time = date.getTime();
-		Timestamp ts = new Timestamp(time);	
-		System.out.println("Current Time Stamp: "+ts);
-		return ts;
+		//Timestamp ts = new Timestamp(time);	ts will return time stamp in normal format
+		System.out.println("Current Time Stamp: "+time);
+		return time;
 	}
 
 }
